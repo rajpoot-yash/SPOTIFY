@@ -1,0 +1,41 @@
+.gradient-range {
+    -webkit-appearance: none;
+    width: 100px;
+    height: 5px;
+    background: linear-gradient(90deg, #1eed0b, #feb47b);
+    border-radius: 5px;
+    outline: none;
+    transition: background 0.3s ease;
+  }
+  
+  .gradient-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .gradient-range::-webkit-slider-thumb:hover {
+    background: #0ae444;
+  }
+  
+  .gradient-range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  
+
+
+
+  
